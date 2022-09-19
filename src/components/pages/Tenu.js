@@ -41,20 +41,19 @@ const Tenu = () => {
                 const { image, name, id } = product
                 return (
                   <div className='product-details' key={id}>
-                    <div className='product-img'>
-                      <img src={image[0]} alt='' className='img-product' />
-                      <img src={image[1]} alt='' className='img-product-1' />
-                    </div>
+                    <Link to={`/productTenu/${id}`}>
+                      <div className='product-img'>
+                        <img src={image[0]} alt='' className='img-product' />
+                        <img src={image[1]} alt='' className='img-product-1' />
+                      </div>
+                    </Link>
                     <div className='product-by'>
-                      <Link to={`/productTenu/${id}`}>
-                        <button className='btn btn-product'>
-                          plus de details
-                        </button>
-                      </Link>
+                      <button className='btn btn-product'>
+                        plus de details
+                      </button>
                     </div>
                     <div className='product-info'>
                       <h3>{name}</h3>
-                     
                     </div>
                   </div>
                 )

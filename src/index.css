@@ -500,7 +500,7 @@ video{
 }
 .product-img{
   position: relative;
-  height: 600px;
+  height: 400px;
   width: 300px;
   margin: 5rem auto;
   box-shadow: var(--light-shadow);
@@ -509,7 +509,7 @@ video{
 }
 .product-img img{
   position: absolute;
-  height: 500px;
+  height: 400px;
   width: 300px;
   left: 0;
   transition: var(--transition);
@@ -924,6 +924,9 @@ address.nextSlide {
   
 }
 /* about */
+.about-banner{
+  position: relative;
+}
 .about-banner img{
   width: 100%;
 }
@@ -944,6 +947,10 @@ border-radius: var(--radius);
   font-size: 2rem;
   margin-top: 2rem;
 }
+.about-video{
+  margin-top: 3rem;
+}
+
 /* contact */
 .contact{
   margin-top: 5rem;

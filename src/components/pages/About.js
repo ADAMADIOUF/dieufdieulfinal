@@ -7,7 +7,7 @@ import { FaWhatsapp } from 'react-icons/fa'
 import GridLoader from 'react-spinners/GridLoader'
 import { DefaultPlayer as Video } from 'react-html5video'
 import 'react-html5video/dist/styles.css'
-import videoAbout from '../../images-1/adzo.video.mp4'
+import videoAbout from '../../images-1/aboutvideop.mp4'
 
 const About = () => {
  const [loading, setLoading] = useState(false)
@@ -84,6 +84,7 @@ const About = () => {
                   <img src={banner2} alt='' />
                 </article>
                 <article className='about-video'>
+                  
                   <Video
                     autoPlay
                     loop
@@ -112,7 +113,6 @@ const About = () => {
               </a>
             </button>
           </div>
-          
         </>
       )}
     </>

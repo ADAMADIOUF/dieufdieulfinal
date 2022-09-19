@@ -54,7 +54,7 @@ const Home = () => {
               <article className='banner-video-info'>
                 <MovingComponent
                   type='spin'
-                  duration='800ms'
+                  duration='1200ms'
                   delay='0s'
                   direction='normal'
                   timing='ease-in-out'
@@ -67,7 +67,7 @@ const Home = () => {
               <article className='banner-video-info'>
                 <MovingComponent
                   type='fadeInFromTop'
-                  duration='600ms'
+                  duration='1000ms'
                   delay='0s'
                   direction='normal'
                   timing='ease-in-out'
@@ -80,7 +80,7 @@ const Home = () => {
               <article className='banner-video-info'>
                 <MovingComponent
                   type='fadeOutToRight'
-                  duration='800ms'
+                  duration='400ms'
                   delay='0s'
                   direction='normal'
                   timing='ease-in-out'
@@ -93,7 +93,7 @@ const Home = () => {
               <article className='banner-video-info'>
                 <MovingComponent
                   type='shadow'
-                  duration='800ms'
+                  duration='500ms'
                   delay='0s'
                   direction='normal'
                   timing='ease-in-out'
@@ -180,6 +180,7 @@ const Home = () => {
           </div>
         </>
       )}
+
     </>
   )
 }
