@@ -1,6 +1,6 @@
-import React from 'react'
+import React,{useState} from 'react'
 import { FaWhatsapp } from 'react-icons/fa'
-
+import {send} from "emailjs-com"
 import{MdEmail} from "react-icons/md"
 import { BsFillTelephoneFill } from 'react-icons/bs'
 import { ImLocation2 } from 'react-icons/im'
@@ -9,9 +9,39 @@ import {MovingComponent} from "react-moving-text"
 import Navbar from '../../Navbar'
 
 const Contact = () => {
+  const[sender_name,set_sender_name]= useState("")
+    const [sender_email, set_sender_email] = useState("")
+
+  const [message, set_message] = useState("")
+const handleName = (e) =>{
+set_sender_name(e.target.value)
+}
+const handleEmail = (e) => {
+  set_sender_email(e.target.value)
+}
+const handleMessage = (e) => {
+  set_message(e.target.value)
+}
+const sendEmail = (e) =>{
+e.preventDefault()
+send(
+  'service_7uk1sug',
+  'template_5mj4qui',
+  { sender_name, sender_email, message },
+  'Gc1Gl0HLvCtGvFHPg'
+)
+  .then((response) => {
+    console.log('message sent successful', response.status, response.text)
+  })
+  .catch((err) => {
+    console.log('fail', err)
+  })
+  set_sender_name("")
+  set_sender_email("")
+  set_message("")
+}
   return (
     <>
-      
       <Navbar />
       <section className='section-center contact'>
         <div className='contact-first-container'>
@@ -88,17 +118,29 @@ const Contact = () => {
         </div>
         <div className='container-form'>
           <article className='form-details'>
-            <form className='form'>
+            <form className='form' onSubmit={sendEmail}>
               <h3>nous aimons entendre vos commentaires</h3>
-              <input type='text' className='input-form' placeholder='email' />
-              <input type='text' className='input-form' placeholder='phone ' />
+              <input
+                type='text'
+                className='input-form'
+                placeholder='nom'
+                name='sender_name'
+                onChange={handleName}
+              />
+              <input
+                type='email'
+                className='input-form'
+                placeholder='email '
+                name='sender_email'
+                onChange={handleEmail}
+              />
               <textarea
-                name=''
+                name='message'
                 id=''
                 cols='30'
                 rows='10'
                 className='input-form'
-                placeholder='votre message'
+                placeholder='votre message'  onChange={handleMessage}
               ></textarea>
               <button className='btn-form'>envoyer votre message</button>
             </form>

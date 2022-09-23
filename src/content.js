@@ -259,7 +259,7 @@ const AppProvider = ({children}) =>{
        'Plébiscité par le monde du stylisme, Dieuf Dieul Couture a su séduire une clientèle internationale par le choix des matières, le glamour, la douceur et l’esprit du détail.',
      content:
        'Notre service client vous contactera juste après votre commande pour collecter les mensurations de votre tenue sur-mesure.',
-     colors: ['red', 'black', 'orange'],
+     colors: ['lime', 'green', 'blue'],
      sizes: ['XL', 'L', 'M', 'XM', 'LX'],
    },
    {
@@ -275,7 +275,7 @@ const AppProvider = ({children}) =>{
        'Plébiscité par le monde du stylisme, Dieuf Dieul Couture a su séduire une clientèle internationale par le choix des matières, le glamour, la douceur et l’esprit du détail.',
      content:
        'Notre service client vous contactera juste après votre commande pour collecter les mensurations de votre tenue sur-mesure.',
-     colors: ['yellow', 'black', 'teal'],
+     colors: ['lime', 'green', 'red'],
      sizes: ['XL', 'L', 'M', 'XM', 'LX'],
    },
    {
@@ -291,23 +291,23 @@ const AppProvider = ({children}) =>{
        'Plébiscité par le monde du stylisme, Dieuf Dieul Couture a su séduire une clientèle internationale par le choix des matières, le glamour, la douceur et l’esprit du détail.',
      content:
        'Notre service client vous contactera juste après votre commande pour collecter les mensurations de votre tenue sur-mesure.',
-     colors: ['lime', 'red', 'blue'],
+     colors: ['lime', 'green', 'yellow'],
      sizes: ['LX', 'L', 'M', 'XM', 'XL'],
    },
    {
      id: '4',
      name: 'iniforme scolaire',
      image: [
-       'https://v5.airtableusercontent.com/v1/7/7/1663804800000/Vjzn5QfU1OBBFYD6BCJBCA/7SvWhLdZ-S9fs7N_D3WJ-r6oP_419vy3h2oYyT0G41RKYcaHaZrppTfUa4MyyhsZ8iHq7WtIxIPwqvWX5mT7zQ/vzYWdvQL8AcQXx8rcu894Vc4DSoG8I1WpgF6ZCoEXX0',
-       'https://v5.airtableusercontent.com/v1/7/7/1663804800000/WBMLlE-96ey2idI_2HvtJg/VvoGCU952HAFQPWKE5UdFP_Me_APaQSjSCnew0UlzL7Z6lSOVk9gdEvSEyHW4aFi4F_1tzUg2ZqAmHErpx9wKw/6Ddd_5eBGxcGHiTCYrL2ZBCTx_4B6hezQd59oLg5110',
-       'https://v5.airtableusercontent.com/v1/7/7/1663804800000/84jmUuj7HBe43-b8i_V09w/kSHfvLZppHAWAGeo_Z7ICYCJ7Ab16URGm186fgcLLBQ9N29JPsDuKjwFDQHMgpT-cyqZqvSUbTzVZSW6452giQ/HuDJ4L5m0o_7DQ8rJJOrv-7xlWIc3PC0KkE-8wrpf7w',
-       'https://v5.airtableusercontent.com/v1/7/7/1663804800000/edyKYVDHfd6EPUNYSmQQSw/96AQ3JoHcIDYngfGkNJyjFugxg29VNBZudcc1r6bKwWrNIykj5jM2pWnargqQa_va7-02Cq8wQAx6CZKmwWAOw/nTNFXXkZHhImdCg_P3Z9EkjDlEgWt-Re439IeHX-E7o',
+       'https://dl.airtable.com/.attachmentThumbnails/1e3187cf49dfa79ec4059ed3707e623c/e8c55cee',
+       'https://dl.airtable.com/.attachmentThumbnails/f73d34fa9a84b77b772e005ae33c65db/67d0dce7',
+       'https://dl.airtable.com/.attachmentThumbnails/a7cd801f5c3e3ce7a70abdc2e96756d0/70855913',
+       'https://dl.airtable.com/.attachmentThumbnails/fdec3eb2ce11765d7c26dd789cd0dbd6/9780df74',
      ],
      description:
        'Plébiscité par le monde du stylisme, Dieuf Dieul Couture a su séduire une clientèle internationale par le choix des matières, le glamour, la douceur et l’esprit du détail.',
      content:
        'Notre service client vous contactera juste après votre commande pour collecter les mensurations de votre tenue sur-mesure.',
-     colors: ['yellow', 'black', 'blue'],
+     colors: ['red', 'black', 'blue'],
      sizes: ['XL', 'L', 'M', 'XM', 'LX'],
      price: 501,
    },
@@ -315,16 +315,16 @@ const AppProvider = ({children}) =>{
      id: '5',
      name: 'iniforme scolaire',
      image: [
-       'https://v5.airtableusercontent.com/v1/7/7/1663804800000/dIlU-bNhLM0LdUe6aqUPow/XIisRaeNpaAFzSQVcrwcgakZm4Re-xCGFU1gDhOJJCYeQUV8x4eUh7s6OhvOlcidARkOcnSvpRB2RhsOEqVMiA/pA6QROtjyPsq8YzTEgUYWOMYsw_kSsqi3QvNXApLtnc',
-       'https://v5.airtableusercontent.com/v1/7/7/1663804800000/3prFS59XvtPcIrbO9G5Usw/ltVsYXxMxRN4MHRX-XN8wmNY_AGWywJ4rFrM_OMyAYBjwjo2jaOkUfI3HsehhdJiVIfijHfmHgfWWcecdNGjsw/QoczoMRA7O0trAPU92md-xvBV2sRhktQN4yEAx_ACxA',
-       'https://v5.airtableusercontent.com/v1/7/7/1663804800000/VgNE6cF1aAF2CIO-r7n7bA/qhyOeTrcIN3RIACxU7CiVbcbp1sW9uTff_vM0ldigV5uuENtll9PBCbDAOsWyUAATtZnP3dxV3-DmD1oHuFx8g/Nn2D6Jd839wemp1_ETeZGqBUCgURrQ0Rzgm2XYEl2hY',
-       'https://v5.airtableusercontent.com/v1/7/7/1663804800000/mR9G2-xdMf0RY8ib1twzQA/s-nGEY-uN0Xr2lsF5FinC0_ykU3SsP_050tBeRtjR_JKVAmf212UBI2P1qSdODJS0gnMoJpEnfG2qeNRwvMsmw/sQwkLbmqucrAlOW4zA9Kyngpa1piE7E_qkIkDzlZlrg',
+       'https://dl.airtable.com/.attachmentThumbnails/cc451598cefc140dfa1a03ebeec310e6/66016e29',
+       'https://dl.airtable.com/.attachmentThumbnails/1b99605d318f6e2e7708f0ecd91a942f/df892a43',
+       'https://dl.airtable.com/.attachmentThumbnails/0eb083af8b719e61247db974d3df26dd/b8c3ef75',
+       'https://dl.airtable.com/.attachmentThumbnails/2a2467a348896c60ee96176259d97443/770e110a',
      ],
      description:
        'Plébiscité par le monde du stylisme, Dieuf Dieul Couture a su séduire une clientèle internationale par le choix des matières, le glamour, la douceur et l’esprit du détail.',
      content:
        'Notre service client vous contactera juste après votre commande pour collecter les mensurations de votre tenue sur-mesure.',
-     colors: ['yellow', 'black', 'blue'],
+     colors: ['red', 'black', 'grey'],
      sizes: ['XL', 'L', 'M', 'XM', 'LX'],
      price: 501,
    },
@@ -332,16 +332,16 @@ const AppProvider = ({children}) =>{
      id: '6',
      name: 'iniforme scolaire',
      image: [
-       'https://v5.airtableusercontent.com/v1/7/7/1663804800000/3qyHY9Ijm-HnsJgZg4X6cg/kYdlZAJOprkpO9YT15-SFUOans56-tAkiszrhv2EZEe29DFRgoSQx-uO4YlbpHwTmbm_5WWPpv_p8EaDUcbuDw/9KasC0jeH9l8AVLXjlYzR1oVzUC5gKlIqhVsfwgnrwA',
-       'https://v5.airtableusercontent.com/v1/7/7/1663804800000/Re8Jgwb1IjzEnlmiMfn7Zw/-ub_uh4f6FkKbVSziSbzkmKYkyzCxZ3bbvF9uUVGXsV45WaFB61O_wAtdg0v6I961gPQkMk2VDC5O7KFrz4aDQ/M6lb1crsxd7S-oWKDYhHmJ3MjirBgt7URS9jbnA-R0c',
-       'https://v5.airtableusercontent.com/v1/7/7/1663804800000/lCx9h-U0rpgnFTl7aTB3Kw/t_7na7zcCETmepvJkQoLYek3repMHUR59oCCJZxpJIvy0hzK8GM1j_6Effh6KTB6xKToH6s1ouKzcGwwRafbqw/izDYFbdyw3DbJFM8Jm1ylYOcxJ9mooy3ix-FkI1TaQQ',
-       'https://v5.airtableusercontent.com/v1/7/7/1663804800000/8w4_LxV71pbJRjsP0zZfWw/HxvOncDMbB-yUGCmROBT_EzKRiFvR1ONPUljxOcXaqLa0l6uO3zl8iWc-Q-ZTaz3KyOVrr_uxr_orZFWIoiDhQ/ksTywDK7gysV4iWypGde1Y9WVKPR3x4DS2zgaE-5pHQ',
+       'https://dl.airtable.com/.attachmentThumbnails/9aeed580ad207492ff14a94a3b14e017/639e5f37',
+       'https://dl.airtable.com/.attachmentThumbnails/729a71171ac46353aab9af276aebcb1e/5798bd4f',
+       'https://dl.airtable.com/.attachmentThumbnails/e22967c62d5e49bc94c7a9cc9d71c4bd/7339195d',
+       'https://dl.airtable.com/.attachmentThumbnails/59f5d72064c9f9afab74000cb76d9df0/22a0cf2d',
      ],
      description:
        'Plébiscité par le monde du stylisme, Dieuf Dieul Couture a su séduire une clientèle internationale par le choix des matières, le glamour, la douceur et l’esprit du détail.',
      content:
        'Notre service client vous contactera juste après votre commande pour collecter les mensurations de votre tenue sur-mesure.',
-     colors: ['yellow', 'black', 'blue'],
+     colors: ['red', 'black', 'blue'],
      sizes: ['XL', 'L', 'M', 'XM', 'LX'],
      price: 501,
    },
@@ -349,16 +349,16 @@ const AppProvider = ({children}) =>{
      id: '7',
      name: 'iniforme scolaire',
      image: [
-       'https://v5.airtableusercontent.com/v1/7/7/1663804800000/Q3JcT4cPG9Tr2vef6udY9w/5LrkXpmmb0mOU5HHZtzhJK1BJ0dsi4_iYnfkZEnM2SUThYYp1XfNxzHpIVmAW1YgKp6mpFWVvVRmCP-dmB8N9w/4aDM4smDzffvRA4mPP1Da7HbJ6TEmIbLQFKAA-NnGZw',
-       'https://v5.airtableusercontent.com/v1/7/7/1663804800000/zW8bqgC9IQZvqeZU6DV9Sg/rT8zWE9erHfJeF5FJAlva9-t62l9Kk8Nd1Crf0ZnluhJN7DXTBrFFr3JsMNFej-f4E94Z1fZEgdORh6wy0LGsg/-NUzfJmRIHH7RgarWyomsCXSfdxsAe4mAUgXSnqX4Lo',
-       'https://v5.airtableusercontent.com/v1/7/7/1663804800000/vFaS0FCxeVLtBgNq6xpXyg/5YVxTixabUCpJmzbX9brsjP7JoQsqhB_PkwfT6FOAsMQerHGJEgKn7xf7gBnnNuMu5LcWLF6WDAEqWnwgTlySw/AcBTKG_t96iplXwf1r-wq_vmBiF5TbupodT4n_VbPJ0',
-       'https://v5.airtableusercontent.com/v1/7/7/1663804800000/SjlbZ6lr7-Tdnu1-Eur8kw/7hfxpO1-8ErPfduBlgZTT1pO_-UMqSl7jqMr6n16W3wl05vhJARUdfkifJaf25zFocWXUOtXRNPUq96VNyIsaQ/HL88R1QrO-P1DLeO-IlaW_VeGSSzzyE10LGR2m0Y158',
+       'https://dl.airtable.com/.attachmentThumbnails/2f8679123a06bf543ae2763676b9a256/c40215b8',
+       'https://dl.airtable.com/.attachmentThumbnails/2f3f8f075e37ec20a306ebbbd72e4650/2878a737',
+       'https://dl.airtable.com/.attachmentThumbnails/dba28e634027c98328f159e1a31c39ab/aa4f1dae',
+       'https://dl.airtable.com/.attachmentThumbnails/4218f83a430c093564992c707da80253/1695b56d',
      ],
      description:
        'Plébiscité par le monde du stylisme, Dieuf Dieul Couture a su séduire une clientèle internationale par le choix des matières, le glamour, la douceur et l’esprit du détail.',
      content:
        'Notre service client vous contactera juste après votre commande pour collecter les mensurations de votre tenue sur-mesure.',
-     colors: ['yellow', 'black', 'blue'],
+     colors: ['blue', 'black', 'grey'],
      sizes: ['XL', 'L', 'M', 'XM', 'LX'],
      price: 501,
    },

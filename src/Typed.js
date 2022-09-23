@@ -8,7 +8,7 @@ const Typed = () => {
           strings: [
             'bienvenue chez',
             'dieuf dieul couture',
-            'appelez-nous au numéro',
+            'Contactez nous sur ces numeros',
             '77 925 85 08',
             '76 255 54 87',
             "Heures d'ouverture",
