@@ -65,45 +65,21 @@ const Home = () => {
                 </MovingComponent>
               </article>
               <article className='banner-video-info'>
-                <MovingComponent
-                  type='fadeInFromTop'
-                  duration='1000ms'
-                  delay='0s'
-                  direction='normal'
-                  timing='ease-in-out'
-                  iteration='15'
-                  fillMode='none'
-                >
+                
                   <h3 className='video-info-2'>dieuf dieul couture</h3>
-                </MovingComponent>
+                
               </article>
               <article className='banner-video-info'>
-                <MovingComponent
-                  type='fadeOutToRight'
-                  duration='400ms'
-                  delay='0s'
-                  direction='normal'
-                  timing='ease-in-out'
-                  iteration='15'
-                  fillMode='none'
-                >
+                
                   <h3>la couture autrement</h3>
-                </MovingComponent>
+                
               </article>
               <article className='banner-video-info'>
-                <MovingComponent
-                  type='shadow'
-                  duration='500ms'
-                  delay='0s'
-                  direction='normal'
-                  timing='ease-in-out'
-                  iteration='15'
-                  fillMode='none'
-                >
+               
                   <h3 className='video-info-2'>
                     cite-safco-croisement-tivaouane-peulh
                   </h3>
-                </MovingComponent>
+               
               </article>
             </div>
           </div>
