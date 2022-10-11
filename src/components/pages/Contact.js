@@ -146,10 +146,10 @@ send(
             </form>
           </article>
           <article className='maps'>
-            <iframe
-              src='https://maps.google.com/maps?q=senegal%20tivaune%20peulh%20&t=&z=13&ie=UTF8&iwloc=&output=embed'
-              title='myFrame'
-            />
+           
+
+
+           <iframe  src="https://maps.google.com/maps?q=Dakar%20Region%20cite%20safco%203%20&t=&z=13&ie=UTF8&iwloc=&output=embed" />
           </article>
         </div>
       </section>
